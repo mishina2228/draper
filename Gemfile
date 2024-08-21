@@ -37,5 +37,5 @@ if RUBY_VERSION >= "3.1.0"
 end
 
 if RUBY_VERSION < "2.5.0"
-  gem "loofah", "< 2.21.0"
+  gem "loofah", "< 2.21.0" # Workaround for `uninitialized constant Nokogiri::HTML4`
 end
